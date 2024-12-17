@@ -1,0 +1,19 @@
+{
+  "name": "ufsec-module-3_and_4",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node 05TUT/server",
+    "dev": "nodemon 05TUT/server"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
