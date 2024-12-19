@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node 05TUT/server",
-    "dev": "nodemon 05TUT/server"
+    "start": "node 09TUT/server",
+    "dev": "nodemon 09TUT/server"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "date-fns": "^4.1.0",
+    "express": "^4.21.2",
     "uuid": "^11.0.3"
   },
   "devDependencies": {

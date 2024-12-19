@@ -1,0 +1,1 @@
+20241219	14:05:18	bf2f737d-735b-40c4-a702-9db51ef4deff	Error: Not allowed by CORS
