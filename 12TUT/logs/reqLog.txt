@@ -1,0 +1,4 @@
+20241223	15:13:37	ce01bc4d-3a24-4244-b79f-5fc0b3cf2922	POST	undefined	/auth
+20241223	15:13:45	aa651de2-ea51-4d30-a309-d6965a4cfbd0	GET	undefined	/employees
+20241223	15:13:54	223af5d4-7b41-4665-aea7-d8baeef7a6f0	GET	undefined	/refresh
+20241223	15:14:07	e472a2e6-4aea-452e-b99c-bfba4b523be1	GET	undefined	/logout

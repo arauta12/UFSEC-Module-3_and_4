@@ -1,0 +1,28 @@
+What is JWT? JSON Web Tokens
+Give out access and refresh tokens.
+
+Access Token: short time before expires
+    Sent as JSON
+    Client stores in memory
+    DONT store in local storage/cookies
+
+Refresh Token: long time before expires
+    Sent as httpOnly cookie
+    Can't access via Javascript
+    Must have an expiry
+
+Process (access token):
+    issued at authentication
+    client uses API Accesss until expires
+    Verified with middleware
+    New token issued at refresh Request
+
+Process (refresh token):
+    issued at authentication
+    client uses to request new access token
+    verified with endpoint and database
+    must expire or logous eventually
+
+Hazards:
+XSS: Cross-Site scripting
+CSRF: CS Request Forgery
