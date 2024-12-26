@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node 13TUT/server",
-    "dev": "nodemon 13TUT/server"
+    "start": "node 14-15TUT/server",
+    "dev": "nodemon 14-15TUT/server"
   },
   "author": "",
   "license": "ISC",
