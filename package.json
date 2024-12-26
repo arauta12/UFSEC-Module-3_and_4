@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node 12TUT/server",
-    "dev": "nodemon 12TUT/server"
+    "start": "node 13TUT/server",
+    "dev": "nodemon 13TUT/server"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +17,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.2",
     "uuid": "^11.0.3"
   },
   "devDependencies": {
